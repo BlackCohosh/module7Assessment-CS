@@ -1,0 +1,21 @@
+Results for the extraLargeArray
+insert 1.3322005 s
+append 4.1232 ms
+
+Results for the largeArray
+insert 11.4218 ms
+append 652.6 μs
+
+Results for the mediumArray
+insert 208.1 μs
+append 170.6 μs
+
+Results for the smallArray
+insert 62.8 μs
+append 134.7 μs
+
+Results for the tinyArray
+insert 49.6 μs
+append 115.7 μs
+
+Append scales better than insert, because it's variance in runtime is far less.
